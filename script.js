@@ -1,6 +1,6 @@
 $(".text-contents").hide()
 $(".lesson").hover(
-	function() {
+	function(){
 	$(this).find('.text-contents').show()},
-	function() {
+	function(){
 	$(this).find('.text-contents').hide()})
